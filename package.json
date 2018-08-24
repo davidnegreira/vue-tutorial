@@ -1,0 +1,29 @@
+{
+  "name": "tuto",
+  "version": "1.0.0",
+  "description": "proyecto de tutorial",
+  "main": "index.js",
+  "author": "david",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "vue-loader": "^15.3.0",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack -w",
+    "start:dev": "webpack-dev-server --open --hot"
+  }
+}
