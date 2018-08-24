@@ -39,5 +39,8 @@ module.exports = {
   },
   plugins: [
     new VueLoaderPlugin()
-  ]
+  ],
+  devServer: {
+    watchContentBase: false
+  }
 };

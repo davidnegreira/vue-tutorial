@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <h1>Tutorial tres con server cambios en vivo, siii!!</h1>
+        <h1>Tutorial cuatro con server!!</h1>
         <button-group/>
     </div>
 </template>
