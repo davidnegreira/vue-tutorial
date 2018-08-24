@@ -39,14 +39,5 @@ module.exports = {
   },
   plugins: [
     new VueLoaderPlugin()
-  ],
-  devServer: {
-    historyApiFallback: true,
-    noInfo: true,
-    overlay: true
-  },
-  performance: {
-    hints: false
-  },
-  devtool: '#eval-source-map'
+  ]
 };
